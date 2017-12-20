@@ -40,7 +40,27 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
-    <orderEntry type="library" name="Maven: batik:batik-transcoder:1.7" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-transcoder:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-bridge:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-gvt:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-awt-util:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-util:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-gui-util:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-ext:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xmlParserAPIs:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-script:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: rhino:js:1.5R4.1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-svg-dom:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-dom:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-css:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-xml:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-parser:1.6-1" level="project" />
+    <orderEntry type="library" name="Maven: fop:fop:0.20.5" level="project" />
+    <orderEntry type="library" name="Maven: batik:batik-1.5-fop:0.20-5" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" name="Maven: xalan:xalan:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: xerces:xercesImpl:2.2.1" level="project" />
+    <orderEntry type="library" name="Maven: avalon-framework:avalon-framework:4.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.0.0.M7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.0.0.M7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.0.0.M7" level="project" />
