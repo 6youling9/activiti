@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wmp_api" />
+        <module name="wmp_dao" />
+        <module name="wmp_service" />
+        <module name="wmp_view" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bonc_ioc_wmp" target="1.8" />
+      <module name="wmp_api" target="1.8" />
+      <module name="wmp_dao" target="1.8" />
+      <module name="wmp_service" target="1.8" />
+      <module name="wmp_view" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

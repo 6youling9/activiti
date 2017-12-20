@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bonc_ioc_wmp.iml" filepath="$PROJECT_DIR$/bonc_ioc_wmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmp_api/wmp_api.iml" filepath="$PROJECT_DIR$/wmp_api/wmp_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmp_dao/wmp_dao.iml" filepath="$PROJECT_DIR$/wmp_dao/wmp_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmp_service/wmp_service.iml" filepath="$PROJECT_DIR$/wmp_service/wmp_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmp_view/wmp_view.iml" filepath="$PROJECT_DIR$/wmp_view/wmp_view.iml" />
+    </modules>
+  </component>
+</project>
