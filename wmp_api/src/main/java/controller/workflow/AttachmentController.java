@@ -1,6 +1,6 @@
 package controller.workflow;
 
-import com.bonc.ioc.common.base.web.BaseController;
+import common.base.web.BaseController;
 import org.activiti.engine.IdentityService;
 import org.activiti.engine.TaskService;
 import org.activiti.engine.task.Attachment;

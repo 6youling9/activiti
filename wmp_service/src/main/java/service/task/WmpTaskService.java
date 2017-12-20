@@ -1,15 +1,16 @@
 package service.task;
 
-import com.bonc.ioc.common.base.dao.BaseDao;
-import com.bonc.ioc.common.base.service.BaseService;
-import com.bonc.ioc.common.util.PageData;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import common.base.dao.BaseDao;
+import common.base.service.BaseService;
+import common.util.PageData;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
-import java.util.List;
 
 @Service
 public class WmpTaskService extends BaseService {

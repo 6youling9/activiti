@@ -1,8 +1,7 @@
 package controller.workflow;
 
-import com.bonc.ioc.common.util.AppReply;
-import com.bonc.ioc.common.util.PageData;
-import com.bonc.ioc.wmp.service.workflow.WorkflowProcessDefinitionService;
+import common.util.AppReply;
+import common.util.PageData;
 import org.activiti.bpmn.converter.BpmnXMLConverter;
 import org.activiti.bpmn.model.BpmnModel;
 import org.activiti.editor.constants.ModelDataJsonConstants;
@@ -23,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import service.workflow.WorkflowProcessDefinitionService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.stream.XMLInputFactory;

@@ -4,15 +4,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import common.util.Page;
+import common.util.PageData;
+import common.util.PageResult;
+import common.util.UuidUtil;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bonc.ioc.common.util.Page;
-import com.bonc.ioc.common.util.PageData;
-import com.bonc.ioc.common.util.PageResult;
-import com.bonc.ioc.common.util.UuidUtil;
 
 public class BaseController {
 

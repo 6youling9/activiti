@@ -1,6 +1,7 @@
 package service.workflow;
 
-import com.bonc.ioc.common.util.WorkflowUtils;
+
+import common.util.WorkflowUtils;
 import org.activiti.engine.*;
 import org.activiti.engine.delegate.Expression;
 import org.activiti.engine.identity.User;

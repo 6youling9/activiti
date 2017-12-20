@@ -1,6 +1,6 @@
 package service.workflow;
 
-import com.bonc.ioc.common.util.UuidUtil;
+import common.util.UuidUtil;
 import org.activiti.engine.*;
 import org.activiti.engine.history.HistoricActivityInstance;
 import org.activiti.engine.impl.RepositoryServiceImpl;

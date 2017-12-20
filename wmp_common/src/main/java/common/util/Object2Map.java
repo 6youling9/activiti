@@ -1,7 +1,5 @@
 package common.util;
 
-import com.alibaba.druid.sql.visitor.functions.Char;
-
 import java.lang.reflect.Field;
 import java.util.*;
 
@@ -148,7 +146,7 @@ public class Object2Map {
             return true;
         } else if (obj instanceof Short || obj instanceof Short[]) {
             return true;
-        } else if (obj instanceof Char || obj instanceof Char[]) {
+        } else if (obj instanceof Character || obj instanceof Character[]) {
             return true;
         } else if (obj instanceof Date || obj instanceof Date[]) {
             return true;

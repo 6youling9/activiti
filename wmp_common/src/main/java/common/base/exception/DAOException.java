@@ -1,7 +1,6 @@
 package common.base.exception;
 
-import com.bonc.ioc.common.util.ExceptionCodeUtil;
-
+import common.util.ExceptionCodeUtil;
 
 /**
  * 数据操作异常类

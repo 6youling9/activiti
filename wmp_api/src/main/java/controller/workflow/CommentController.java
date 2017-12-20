@@ -1,7 +1,7 @@
 package controller.workflow;
 
-import com.bonc.ioc.common.util.Object2Map;
-import com.bonc.ioc.common.util.PageUtil;
+
+import common.util.Object2Map;
 import org.activiti.engine.HistoryService;
 import org.activiti.engine.IdentityService;
 import org.activiti.engine.TaskService;
@@ -160,90 +160,6 @@ public class CommentController {
         try {
             Comment comment = taskService.getComment(commentId);
             return Object2Map.Obj2Map(comment);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-    
-    /**
-     * @Description: TODO(根据流程查询意见列表)
-     * @method_name: selectCommentsByPid
-     * @author wangze
-     * @param processInstanceId
-     * @param type
-     * @param request
-     * @date 2017/9/6 21:22
-     * @return Object
-     */
-    @RequestMapping(value = "selectCommentsByPid", method = RequestMethod.POST)
-    @ResponseBody
-    public Object selectCommentsByPid(
-            @RequestParam("processInstanceId") String processInstanceId,
-            @RequestParam(value = "type", required = false) String type,
-            HttpServletRequest request) {
-        try {
-            List<Comment> taskComments = taskService.getProcessInstanceComments(processInstanceId, type);
-    
-            //调用后台分页工具进行后台分页
-            List<Comment> result = PageUtil.paging(request,taskComments);
-    
-            return Object2Map.Obj2Map(result);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-    
-    /**
-     * @Description: TODO(根据节点查询意见列表)
-     * @method_name: selectCommentsByTask
-     * @author wangze
-     * @param taskId
-     * @param type
-     * @param request
-     * @date 2017/9/6 21:22
-     * @return Object
-     */
-    @RequestMapping(value = "selectCommentsByTask", method = RequestMethod.POST)
-    @ResponseBody
-    public Object selectCommentsByTask(
-            @RequestParam("taskId") String taskId,
-            @RequestParam(value = "type", required = false) String type,
-            HttpServletRequest request) {
-        try {
-            List<Comment> taskComments = taskService.getTaskComments(taskId, type);
-    
-            //调用后台分页工具进行后台分页
-            List<Comment> result = PageUtil.paging(request,taskComments);
-    
-            return Object2Map.Obj2Map(result);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-    
-    /**
-     * @Description: TODO(根据类别查询意见列表)
-     * @method_name: selectCommentsByType
-     * @author wangze
-     * @param type
-     * @param request
-     * @date 2017/9/6 21:22
-     * @return Object
-     */
-    @RequestMapping(value = "selectCommentsByType", method = RequestMethod.POST)
-    @ResponseBody
-    public Object selectCommentsByType(
-		    @RequestParam(value = "type") String type, HttpServletRequest request) {
-        try {
-            List<Comment> taskComments = taskService.getCommentsByType(type);
-            
-            //调用后台分页工具进行后台分页
-            List<Comment> result = PageUtil.paging(request,taskComments);
-            
-            return Object2Map.Obj2Map(result);
         } catch (Exception e) {
             e.printStackTrace();
             return null;

@@ -1,7 +1,5 @@
 package common.util;
 
-import net.sf.json.JSONObject;
-
 import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
@@ -140,9 +138,5 @@ public class PageData extends HashMap implements Map {
         // TODO Auto-generated method stub
         return map.values();
     }
-    
-    public static JSONObject toJson(PageData pd) {
-        JSONObject json = JSONObject.fromObject(pd);
-        return json;
-    }
+
 }

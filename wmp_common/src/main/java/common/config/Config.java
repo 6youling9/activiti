@@ -1,10 +1,9 @@
 package common.config;
 
+import common.util.PropertiesUtil;
+
 import java.util.Properties;
 
-import org.apache.commons.lang3.SystemUtils;
-
-import com.bonc.ioc.common.util.PropertiesUtil;
 
 public class Config
 {

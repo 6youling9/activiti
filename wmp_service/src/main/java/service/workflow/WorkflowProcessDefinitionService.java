@@ -1,9 +1,9 @@
 package service.workflow;
 
-import com.bonc.ioc.common.util.Object2Map;
-import com.bonc.ioc.common.util.PageData;
-import com.bonc.ioc.common.util.StringUtil;
-import com.bonc.ioc.common.util.WorkflowUtils;
+import common.util.Object2Map;
+import common.util.PageData;
+import common.util.StringUtil;
+import common.util.WorkflowUtils;
 import org.activiti.engine.HistoryService;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
@@ -157,7 +157,7 @@ public class WorkflowProcessDefinitionService {
     }
     
     /**
-     * 重新部署所有流程定义，调用：{@link #deployFromClasspath(String exportDir)}完成功能
+     * 重新部署所有流程定义
      *
      * @throws Exception
      * @see #deployFromClasspath

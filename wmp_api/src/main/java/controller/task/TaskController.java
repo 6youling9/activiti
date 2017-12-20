@@ -1,8 +1,7 @@
 package controller.task;
 
-import com.bonc.ioc.common.util.*;
-import com.bonc.ioc.wmp.service.task.WmpTaskService;
-import com.bonc.ioc.wmp.service.workflow.WorkflowTraceService;
+
+import common.util.*;
 import org.activiti.engine.*;
 import org.activiti.engine.form.TaskFormData;
 import org.activiti.engine.history.*;
@@ -23,6 +22,8 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import service.task.WmpTaskService;
+import service.workflow.WorkflowTraceService;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.*;
