@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   
-  <artifactId>wmp_util</artifactId>
+  <artifactId>wmp_common</artifactId>
 
 
 </project>
