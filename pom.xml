@@ -18,6 +18,7 @@
     <module>wmp_service</module>
     <module>wmp_api</module>
     <module>wmp_view</module>
+    <module>wmp_util</module>
   </modules>
 
   <!--springBoot的配置-->
